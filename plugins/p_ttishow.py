@@ -67,7 +67,10 @@ async def save_group(bot, message):
                                                                          [[
                                                                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                                                                        ],(
+                                                                        ],[
+                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Sam_07dz")
+                                                                         ]]
+                                                 ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
@@ -91,7 +94,7 @@ async def leave_a_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton('Support Group',url="https://t.me/inoxreq"),
-            
+            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Sam_07dz")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
